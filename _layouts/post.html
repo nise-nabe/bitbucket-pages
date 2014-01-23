@@ -1,12 +1,26 @@
 ---
 layout: default
 ---
-<div class="content">
-  <article class="post">
-    <header><h2>{{ page.title }}</h2><p class="meta">{{ page.date | date_to_string }}</p></header>
-    <div class="post">
-    {{ content }}
+<div id="layout" class="pure-g-r">
+  <div class="pure-u sidebar">
+    <header class="header">
+      <h1>nise_nabe</h1>
+    </header>
+    <nav class="nav">
+      <ul class="nav-item">
+
+      </ul>
+    </nav>
+  </div>
+  <div class="pure-u-1">
+    <div class="content">
+      <article class="post">
+        <header><h2>{{ page.title }}</h2><p class="meta">{{ page.date | date_to_string }}</p></header>
+        <div class="post">
+        {{ content }}
+        </div>
+      </article>
+      <a href="/">Back to Top</a>
     </div>
-  </article>
-  <a href="/">Back to Top</a>
+  </div>
 </div>

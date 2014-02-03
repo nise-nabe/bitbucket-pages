@@ -44,6 +44,7 @@ date:   2014-01-31 11:22
 composer でインストールする
 
 composer.json
+
 ```
 {
 	"repositories": [

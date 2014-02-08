@@ -175,3 +175,15 @@ a:focus {
 	}
 }
 
+pre {
+	background-color: rgba(173, 216, 230, 0.2);
+	border-radius: 3px;
+	box-shadow: 0 0 5px rgba(173, 216, 230, 1.0) inset;
+	padding: 10px;
+}
+
+blockquote {
+	border: #bbbbbb 1px solid;
+	border-left: #bbbbbb 5px solid;
+	padding-left: 10px;
+}

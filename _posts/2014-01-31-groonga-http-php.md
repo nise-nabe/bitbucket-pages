@@ -4,7 +4,9 @@ title:  "Groonga http サーバへ php でアクセスするライブラリ書�
 date:   2014-01-31 11:22
 ---
 
-[nise-nabe/groonga-http-php](https://github.com/nise-nabe/groonga-http-php)
+github [nise-nabe/groonga-http-php](https://github.com/nise-nabe/groonga-http-php)
+
+packagist [nise-nabe/groonga-http-php](/https://packagist.org/packages/nise-nabe/groonga-http-php)
 
 ## インストール
 

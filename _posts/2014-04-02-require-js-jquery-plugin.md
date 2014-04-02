@@ -6,7 +6,7 @@ date:   2014-04-02 11:57
 
 こんな感じでよいらしい？
 
-つまり それぞれ paths で指定した上で shim に jquery を記述し， define では読み出すだけでそのまま呼び出すことはないので引き数に渡さないという感じ:．
+つまり それぞれ paths で指定した上で shim に jquery を記述し， requirejs では読み出すだけでそのまま呼び出すことはないので引き数に渡さないという感じ:．
 
 ```
 requirejs.config({
@@ -22,7 +22,7 @@ requirejs.config({
   }
 });
 
-define(['jquery', 'mustache', 'fancybox'], function($) {
+requirejs(['jquery', 'mustache', 'fancybox'], function($) {
   $.ajax({
     url: '/test.json'
   }).done(function(ret) {

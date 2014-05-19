@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "first post"
+title:  "nginx 1.6 build ログ"
 date:   2014-01-23 8:35:47
 ---
 

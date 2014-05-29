@@ -1,0 +1,6 @@
+{
+  "name": "nise-nabe.github.io",
+  "dependencies": {
+    "pure": "~0.5.0"
+  }
+}

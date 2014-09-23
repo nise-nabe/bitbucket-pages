@@ -15,4 +15,5 @@ Initialization of the layer, please do not call this function by yourself, you s
 この文言は例えば下記のようなコミットで追加されている．コミットメッセージからおそらくコンストラクタをうまく使えるように書かれているみたいなのでこちらを使うのが良さそう．
 
 > Doc #5829: Improve constructor definitions and fix issues in Layer's inl... · e3bb3bb · cocos2d/cocos2d-html5
+>
 > https://github.com/cocos2d/cocos2d-html5/commit/e3bb3bbc0c12f14b72605a941007018816e32ffa
